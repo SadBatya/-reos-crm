@@ -33,7 +33,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
-    (document.querySelector('#root') as HTMLElement).className = theme
+    (document.querySelector('html') as HTMLElement).className = theme
   }, [theme]);
 
   const toggleTheme = () => {
