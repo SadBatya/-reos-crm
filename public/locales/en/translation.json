@@ -1,5 +1,7 @@
 {
   "main": {
-    "header": "Week"
+    "header": "Week",
+    "navigation_btn-1": "Main",
+    "navigation_btn-2": "Tasks"
   }
 }

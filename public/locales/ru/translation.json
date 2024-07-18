@@ -1,5 +1,7 @@
 {
   "main": {
-    "header": "Неделя"
+    "header": "Неделя",
+    "navigation_btn-1": "Главная",
+    "navigation_btn-2": "Задачи"
   }
 }
